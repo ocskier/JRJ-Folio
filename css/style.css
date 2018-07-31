@@ -16,8 +16,8 @@ nav .brand-logo {
 }
 
 p {
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1.0rem;
+  line-height: 1.5rem;
 }
 
 .sidenav-trigger {
@@ -26,10 +26,9 @@ p {
 .socialbar {
   text-align: center;
   padding: 0px;
-  border: 4px solid #777;
   margin: 10px;
   border-radius: 8px;
-  background: #fff;
+  background: transparent;
 }
 .fa {
   padding: 20px;
@@ -74,7 +73,7 @@ p {
 }
 
 .mycardbody {
-    padding: 0.10rem;
+    padding: 18px;
 }
 
 .ctr-txt {
