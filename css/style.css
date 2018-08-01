@@ -7,7 +7,7 @@
  */
 
 body {
-  background: floralwhite;
+  background: antiquewhite;
 }
 
 nav ul a,
@@ -16,10 +16,12 @@ nav .brand-logo {
 }
 
 p {
-  font-size: 1.4rem;
-  line-height: 1.5rem;
+  font-size: 1.0rem;
+  line-height: 1.4rem;
 }
-
+h3 {
+  margin: 0px 0 10px 0;
+}
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -57,7 +59,7 @@ p {
   color: white;
 }
 .parallax-container {
-  min-height: 240px;
+  min-height: 180px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -67,6 +69,7 @@ p {
   }
 
 .mycard {
+    width: 90%;
     margin: 10px auto;
     border: 5px solid #666666;
     border-radius: 30px;
@@ -78,8 +81,12 @@ p {
 
 .ctr-txt {
     text-align: center;
+    color: black;
 }
-
+.tab { 
+  display:inline-block; 
+  margin-left: 40px; 
+}
 .mycard-a {
     top: 0; left: 0;
     height: 100%; width: 100%;
