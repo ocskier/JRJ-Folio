@@ -7,7 +7,8 @@
  */
 
 body {
-  background: antiquewhite;
+  font-family: 'Kaushan Script', cursive;
+  background: rgb(81, 115, 141);
 }
 
 nav ul a,
@@ -16,7 +17,7 @@ nav .brand-logo {
 }
 
 p {
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   line-height: 1.4rem;
 }
 h3 {
@@ -70,6 +71,7 @@ h3 {
 
 .mycard {
     width: 90%;
+    height: 196px;
     margin: 10px auto;
     border: 5px solid #666666;
     border-radius: 30px;
@@ -88,6 +90,9 @@ h3 {
   margin-left: 40px; 
 }
 .mycard-a {
+    z-index: 999;
+    display: block;
+    position: absolute;
     top: 0; left: 0;
     height: 100%; width: 100%;
     }
@@ -100,11 +105,27 @@ h3 {
   #index-banner .section {
     top: 10%;
   }
+  .mycard {
+    height: 212px;
+  }
 }
 
+@media only screen and (max-width : 876px) {
+  .mycard {
+    height: 200px;
+  }
+}
+@media only screen and (max-width : 768px) {
+  .mycard {
+    height: 186px;
+  }
+}
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  .mycard {
+    height: 100%;
   }
 }
 
