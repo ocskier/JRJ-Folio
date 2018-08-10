@@ -1,10 +1,20 @@
 $(document).ready(function() {
-    var projectsArray = [{Url: "https://ocskier.github.io/Train-Scheduler/", Pic: "assets/images/railway-station-619082_1280.jpg", Name: "Train Scheduler"},
-    {Url: "https://ocskier.github.io/Trivia-Game/", Pic: "assets/images/question-mark-1872665_1280.jpg", Name: "Trivia Game"},
-    {Url: "https://ocskier.github.io/unit-4-game/", Pic: "assets/images/main-thumb-t-1785517-200-boztfctkwxbzmfjwurneimbimaluhaxk.jpeg", Name: "Star Wars Battle"},
-    {Url: "https://ocskier.github.io/Word-Guess-Game/", Pic: "assets/images/Screenshot (5).png", Name: "Word Game"},
-    {Url: "https://jenguin777.github.io/project1/index.html", Pic: "assets/images/tithe-favicon.1.png", Name: "Tithe App"},
-    {Url: "https://ocskier.github.io/Api-Ajax-Hw/", Pic: "assets/images/window-615427_1920.jpg", Name: "Api Demo"}];
+
+    function Project (url,pic,name) {
+        this.Url = url;
+        this.Pic=pic;
+        this.Name=name;
+    }
+
+    var Proj1=new Project("https://ocskier.github.io/Train-Scheduler/","assets/images/railway-station-619082_1280.jpg","Train Scheduler");
+    var Proj2=new Project("https://ocskier.github.io/Trivia-Game/","assets/images/question-mark-1872665_1280.jpg","Trivia Game");
+    var Proj3=new Project("https://ocskier.github.io/unit-4-game/","assets/images/main-thumb-t-1785517-200-boztfctkwxbzmfjwurneimbimaluhaxk.jpeg","Star Wars Battle");
+    var Proj4=new Project("https://ocskier.github.io/Word-Guess-Game/","assets/images/Screenshot (5).png","Word Game");
+    var Proj5=new Project("https://jenguin777.github.io/project1/index.html","assets/images/tithe-favicon.1.png","Tithe App");
+    var Proj6=new Project("https://ocskier.github.io/Api-Ajax-Hw/","assets/images/window-615427_1920.jpg","Api Demo");
+
+    var projectsArray = [];
+    projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6);
 
     for (var i=0;i<projectsArray.length;i++) {
         var newProjDiv = $('<div class="col s12 m4 l3"></div>');
