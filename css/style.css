@@ -112,6 +112,13 @@ form {
     height: 100%; width: 100%;
     }
 
+
+  @media only screen and (max-width : 1264px) {
+      .mycard {
+        height: 192px;
+      }
+    }
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -124,6 +131,7 @@ form {
     height: 212px;
   }
 }
+
 
 @media only screen and (max-width : 876px) {
   .mycard {
