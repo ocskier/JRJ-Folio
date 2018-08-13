@@ -86,7 +86,6 @@ form {
 
 .mycard {
     width: 90%;
-    height: 196px;
     margin: 10px auto;
     border: 5px solid #666666;
     border-radius: 30px;
@@ -115,7 +114,7 @@ form {
 
   @media only screen and (max-width : 1264px) {
       .mycard {
-        height: 192px;
+        height: 182px;
       }
     }
 
