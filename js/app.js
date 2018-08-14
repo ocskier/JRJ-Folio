@@ -22,7 +22,7 @@ $(document).ready(function() {
         var newCardDiv = $('<div class="card mycard"></div>');
         var newCardA = $('<a href="'+projectsArray[i].Url+'" target="blank" class ="mycard-a" class="waves-effect waves-light"></a>');
         var newCardImg = $(' <div class="card-image">');
-        newCardImg.append('<img src="'+projectsArray[i].Pic+'" alt="Train Pic" style="border-radius: 25px 25px 0 0;">');
+        newCardImg.append('<img src="'+projectsArray[i].Pic+'" alt="Portfolio Pic" style="border-radius: 25px 25px 0 0;">');
         var newCardContent = $('<div class="card-content mycardbody">');
         newCardContent.append('<p class="ctr-txt">'+projectsArray[i].Name+'</p>');
         newCardDiv.append(newCardA).append(newCardImg).append(newCardContent);
