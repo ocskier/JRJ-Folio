@@ -16,7 +16,7 @@ $(document).ready(function() {
     var Proj8=new Project("https://github.com/ocskier/Bamazon","assets/images/bot.jpg","Bamazon");
 
     var projectsArray = [];
-    projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7);
+    projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8);
 
     for (var i=0;i<projectsArray.length;i++) {
         var newProjDiv = $('<div class="col s12 m4 l3"></div>');
