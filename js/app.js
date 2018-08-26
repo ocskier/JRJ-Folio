@@ -13,6 +13,7 @@ $(document).ready(function() {
     var Proj5=new Project("https://jenguin777.github.io/project1/index.html","assets/images/tithe-favicon.1.png","Tithe App");
     var Proj6=new Project("https://ocskier.github.io/Api-Ajax-Hw/","assets/images/window-615427_1920.jpg","Api Demo");
     var Proj7=new Project("https://github.com/ocskier/LIRI-Node-App","assets/images/bot.jpg","LIRI Bot");
+    var Proj8=new Project("https://github.com/ocskier/Bamazon","assets/images/bot.jpg","Bamazon");
 
     var projectsArray = [];
     projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7);
