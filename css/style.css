@@ -11,9 +11,6 @@ body {
   background: rgb(81, 115, 141);
 }
 
-nav {
-  height:90px;
-}
 nav ul a,
 nav .brand-logo {
   color: #444;
