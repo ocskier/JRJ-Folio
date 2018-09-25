@@ -3,9 +3,7 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-    $('.carousel').carousel({
-      indicators: true
-    });
+    $('.carousel').carousel();
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
