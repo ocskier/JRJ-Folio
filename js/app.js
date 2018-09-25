@@ -15,8 +15,8 @@ $(document).ready(function() {
     var Proj7=new Project("https://github.com/ocskier/LIRI-Node-App","assets/images/bot.jpg","LIRI Bot");
     var Proj8=new Project("https://github.com/ocskier/Bamazon","assets/images/fancycrave.jpg","Bamazon");
     var Proj9=new Project("https://nameless-plateau-29518.herokuapp.com/","assets/images/love-logo-hi.png","Match Maker");
-    var Proj10=new Project("https://intense-wildwood-45271.herokuapp.com/","assets/images/assets/images/fabio-alves-773406-unsplash.jpg","Burger App");
-    var Proj11=new Project("https://fierce-basin-24175.herokuapp.com/","assets/images/assets/images/fabio-alves-773406-unsplash.jpg","Serialize Burger");
+    var Proj10=new Project("https://intense-wildwood-45271.herokuapp.com/","assets/images/fabio-alves-773406-unsplash.jpg","Burger App");
+    var Proj11=new Project("https://fierce-basin-24175.herokuapp.com/","assets/images/fabio-alves-773406-unsplash.jpg","Serialize Burger");
 
     var projectsArray = [];
     projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11);
