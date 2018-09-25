@@ -33,7 +33,7 @@ $(document).ready(function() {
         // newProjDiv.append(newCardDiv);
         // $("#proj-row").append(newProjDiv);
         var newCardA = $('<a class="carousel-item" href="'+projectsArray[i].Url+'" target="blank"></a>');
-        newCardA.append($('<img src="'+projectsArray[i].Pic+'">'));
+        newCardA.append($('<img src="'+projectsArray[i].Pic+'">')).append($('<p class="ctr-txt">'+projectsArray[i].Name+'</p>'));
         $("#proj-row").append(newCardA);
     }
 });
