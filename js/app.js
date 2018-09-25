@@ -32,7 +32,7 @@ $(document).ready(function() {
         // newCardDiv.append(newCardA).append(newCardImg).append(newCardContent);
         // newProjDiv.append(newCardDiv);
         // $("#proj-row").append(newProjDiv);
-        var newCardA = $('<a class="carousel-item" href="'+projectsArray[i].Url+'"></a>');
+        var newCardA = $('<a class="carousel-item" href="'+projectsArray[i].Url+'" target="blank" class ="mycard-a" class="waves-effect waves-light></a>');
         newCardA.append($('<img src="'+projectsArray[i].Pic+'">'));
         $("#proj-row").append(newCardA);
     }
