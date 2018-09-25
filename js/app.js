@@ -32,8 +32,9 @@ $(document).ready(function() {
         // newCardDiv.append(newCardA).append(newCardImg).append(newCardContent);
         // newProjDiv.append(newCardDiv);
         // $("#proj-row").append(newProjDiv);
-        var newCardA = $('<a class="carousel-item" href="'+projectsArray[i].Url+'" target="blank"></a>');
-        newCardA.append($('<img src="'+projectsArray[i].Pic+'">'));
+
+        var newCardDiv = $('<div class="carousel-item white-text" href="'+projectsArray[i].Url+'" target="blank"></div>');
+        newCardDiv.append($('<img src="'+projectsArray[i].Pic+'">')).append($('<p class="white-text">'+projectsArray[i].Name+'</p>'));
         $("#proj-row").append(newCardA);
     }
 });
