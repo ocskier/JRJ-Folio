@@ -35,6 +35,6 @@ $(document).ready(function() {
 
         var newCardDiv = $('<div class="carousel-item white-text" href="'+projectsArray[i].Url+'" target="blank"></div>');
         newCardDiv.append($('<img src="'+projectsArray[i].Pic+'">')).append($('<p class="white-text">'+projectsArray[i].Name+'</p>'));
-        $("#proj-row").append(newCardA);
+        $("#proj-row").append(newCardDiv);
     }
 });
