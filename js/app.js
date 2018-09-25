@@ -34,7 +34,7 @@ $(document).ready(function() {
         // $("#proj-row").append(newProjDiv);
 
         var newCardA = $('<a class="carousel-item" href="'+projectsArray[i].Url+'" target="blank"></a>');
-        newCardA.append($('<img src="'+projectsArray[i].Pic+'" alt="Portfolio Pic" style="border-radius: 25px;">')).append($('<p class="ctr-txt white-txt">'+projectsArray[i].Name+'</p>'));
+        newCardA.append($('<img src="'+projectsArray[i].Pic+'" alt="Portfolio Pic" style="border-radius: 25px;">')).append($('<p class="ctr-txt white-text">'+projectsArray[i].Name+'</p>'));
         $("#proj-row").append(newCardA);
     }
 });
