@@ -33,7 +33,7 @@ $(document).ready(function() {
         // newProjDiv.append(newCardDiv);
         // $("#proj-row").append(newProjDiv);
         var newCardA = $('<a class="carousel-item"></a>');
-        newCardA.append($('<img src="'+projectsArray[i].Pic+'" alt="Portfolio Pic" style="border-radius: 25px 25px 0 0;">'));
+        newCardA.append($('<img src="'+projectsArray[i].Pic+'">'));
         $("#proj-row").append(newCardA);
     }
 });
