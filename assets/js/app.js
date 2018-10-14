@@ -15,7 +15,11 @@ $(document).ready(function() {
             }               
         });         
     })()
-
+    
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+    $('.carousel').carousel();
+    
     // for (var i=0;i<projectsArray.length;i++) {
         // var newProjDiv = $('<div class="col s12 m4 l3"></div>');
         // var newCardDiv = $('<div class="card mycard"></div>');
