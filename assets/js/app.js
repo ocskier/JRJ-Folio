@@ -19,7 +19,7 @@ $(document).ready(function() {
 
     //Get the HTML from the template   in the script tag
     var theTemplateScript = $("#index-template").html();
-
+    console.log(theTemplateScript);
     //Compile the template
     var theTemplate = Handlebars.compile (theTemplateScript); 
     $("body").append (theTemplate(projectsArray)); 
