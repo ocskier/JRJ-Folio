@@ -1,5 +1,21 @@
 $(document).ready(function() {
 
+    (function getTemplateAjax() {
+        var source;
+        var theTemplate;
+    
+        $.ajax({
+            url: "views/index.handlebars", //ex. js/templates/mytemplate.handlebars
+            cache: true,
+            success: function(data) {
+                source    = data;
+                //Compile the template
+                theTemplate = Handlebars.compile (source); 
+                $("body").append (theTemplate(projectsArray)); 
+            }               
+        });         
+    })()
+
     // for (var i=0;i<projectsArray.length;i++) {
         // var newProjDiv = $('<div class="col s12 m4 l3"></div>');
         // var newCardDiv = $('<div class="card mycard"></div>');
@@ -18,11 +34,6 @@ $(document).ready(function() {
     // }
 
     //Get the HTML from the template   in the script tag
-    var theTemplateScript = $("#index-template").html();
-    console.log(theTemplateScript);
-    //Compile the template
-    var theTemplate = Handlebars.compile (theTemplateScript); 
-    $("body").append (theTemplate(projectsArray)); 
 
     var from, name, textbody;
     $("button").click(function () {
