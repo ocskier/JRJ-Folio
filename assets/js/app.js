@@ -1,5 +1,3 @@
-<script src="../../data/project.js"></script> 
-
 $(document).ready(function() {
 
     // for (var i=0;i<projectsArray.length;i++) {
