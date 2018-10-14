@@ -11,7 +11,6 @@ $(document).ready(function() {
                 source = data;
                 //Compile the template
                 theTemplate = Handlebars.compile (source); 
-                console.log(projectsArray);
                 $("body").prepend(theTemplate(projectsArray)); 
             }               
         });         
