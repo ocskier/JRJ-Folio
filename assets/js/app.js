@@ -9,6 +9,7 @@ $(document).ready(function() {
             cache: true,
             success: function(data) {
                 source    = data;
+                console.log(source);
                 //Compile the template
                 theTemplate = Handlebars.compile (source); 
                 $("body").append (theTemplate(projectsArray)); 
