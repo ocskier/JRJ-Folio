@@ -12,7 +12,7 @@ $(document).ready(function() {
                 console.log(source);
                 //Compile the template
                 theTemplate = Handlebars.compile (source); 
-                $("body").append (theTemplate(projectsArray)); 
+                $("body").prepend(theTemplate(projectsArray)); 
             }               
         });         
     })()
