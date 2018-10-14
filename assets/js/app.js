@@ -8,10 +8,10 @@ $(document).ready(function() {
             url: "views/index.handlebars", //ex. js/templates/mytemplate.handlebars
             cache: true,
             success: function(data) {
-                source    = data;
-                console.log(source);
+                source = data;
                 //Compile the template
                 theTemplate = Handlebars.compile (source); 
+                console.log(projectsArray);
                 $("body").prepend(theTemplate(projectsArray)); 
             }               
         });         

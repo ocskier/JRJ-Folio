@@ -19,3 +19,5 @@ const Proj12=new Project("https://secret-gorge-60402.herokuapp.com/","assets/ima
 
 const projectsArray = [];
 projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11,Proj12);
+
+console.log(projectsArray);
