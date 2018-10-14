@@ -1,5 +1,5 @@
 
-import projectsArray from "Projects";
+import projectsArray from "../../data/projects";
 
 $(document).ready(function() {
 
