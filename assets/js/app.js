@@ -11,7 +11,7 @@ $(document).ready(function() {
                 source = data;
                 //Compile the template
                 theTemplate = Handlebars.compile (source); 
-                $("body").prepend(theTemplate(projects)); 
+                $("body").prepend(theTemplate(hdbrsObj)); 
             }               
         });         
     })()
