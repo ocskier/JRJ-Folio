@@ -16,6 +16,10 @@ nav .brand-logo {
   color: #444;
 }
 
+#nav-mobile {
+  color: rgb(81, 115, 141);
+}
+
 p {
   font-size: 1.2rem;
   line-height: 1.4rem;
