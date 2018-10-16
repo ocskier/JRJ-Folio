@@ -1,6 +1,6 @@
 $(document).ready(() => {
 
-    (function getTemplateAjax() {
+    (getTemplateAjax = () => {
         var source;
         var theTemplate;
     
