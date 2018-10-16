@@ -1,7 +1,9 @@
-let Project = (url,pic,name) => {
-    this.Url = url;
-    this.Pic=pic;
-    this.Name=name;
+class Project {
+    constructor(url, pic, name) {
+        this.Url = url;
+        this.Pic = pic;
+        this.Name = name;
+    }
 }
 
 const Proj1=new Project("https://ocskier.github.io/Train-Scheduler/","assets/images/railway-station-619082_1280.jpg","Train Scheduler");
