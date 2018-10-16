@@ -1,4 +1,4 @@
-const Project = (url,pic,name) => {
+let Project = (url,pic,name) => {
     this.Url = url;
     this.Pic=pic;
     this.Name=name;
