@@ -19,10 +19,12 @@ const Proj10=new Project("https://intense-wildwood-45271.herokuapp.com/","assets
 const Proj11=new Project("https://fierce-basin-24175.herokuapp.com/","assets/images/fabio-alves-773406-unsplash.jpg","Serialize Burger");
 const Proj12=new Project("https://secret-gorge-60402.herokuapp.com/","assets/images/jeshoots-com-436787-unsplash.jpg","Aristotle");
 const Proj13=new Project("http://mongoscraps.herokuapp.com/","assets/images/hannah_gibbs_1067876.jpg","Mongo Scraper");
-const Proj14=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory")
+const Proj14=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory");
+const Proj15=new Project("https://search-react-app.herokuapp.com/","assets/images/hannah_gibbs_1067876.jpg","NPR-Music-React")
+const Proj16=new Project("https://wishlist-p3t6-app.herokuapp.com/","assets/images/Screenshot_Proj.png","WishList")
 
 const projectsArray = [];
-projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11,Proj12,Proj13,Proj14);
+projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11,Proj12,Proj13,Proj14,Proj15,Proj16);
 
 const hdbrsObj = {
     projects: projectsArray
