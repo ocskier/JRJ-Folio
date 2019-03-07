@@ -15,13 +15,14 @@ const Proj6=new Project("https://ocskier.github.io/Api-Ajax-Hw/","assets/images/
 const Proj7=new Project("https://github.com/ocskier/LIRI-Node-App","assets/images/bot.jpg","LIRI Bot");
 const Proj8=new Project("https://github.com/ocskier/Bamazon","assets/images/fancycrave.jpg","Bamazon");
 const Proj9=new Project("https://nameless-plateau-29518.herokuapp.com/","assets/images/love-logo-hi.png","Match Maker");
-const Proj10=new Project("https://intense-wildwood-45271.herokuapp.com/","assets/images/fabio-alves-773406-unsplash.jpg","Burger App");
-const Proj11=new Project("https://fierce-basin-24175.herokuapp.com/","assets/images/fabio-alves-773406-unsplash.jpg","Serialize Burger");
-const Proj12=new Project("https://secret-gorge-60402.herokuapp.com/","assets/images/jeshoots-com-436787-unsplash.jpg","Aristotle");
-const Proj13=new Project("http://mongoscraps.herokuapp.com/","assets/images/hannah_gibbs_1067876.jpg","Mongo Scraper");
-const Proj14=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory");
-const Proj15=new Project("https://search-react-app.herokuapp.com/","assets/images/hannah_gibbs_1067876.jpg","NPR-Music-React")
-const Proj16=new Project("https://wishlist-p3t6-app.herokuapp.com/","assets/images/Screenshot_Proj.jpg","WishList")
+// const Proj10=new Project("https://intense-wildwood-45271.herokuapp.com/","assets/images/fabio-alves-773406-unsplash.jpg","Burger App");
+const Proj10=new Project("https://fierce-basin-24175.herokuapp.com/","assets/images/fabio-alves-773406-unsplash.jpg","Serialize Burger");
+const Proj11=new Project("https://secret-gorge-60402.herokuapp.com/","assets/images/jeshoots-com-436787-unsplash.jpg","Aristotle");
+const Proj12=new Project("http://mongoscraps.herokuapp.com/","assets/images/hannah_gibbs_1067876.jpg","Mongo Scraper");
+const Proj13=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory");
+const Proj14=new Project("https://search-react-app.herokuapp.com/","assets/images/hannah_gibbs_1067876.jpg","NPR-Music-React");
+const Proj15=new Project("https://wishlist-p3t6-app.herokuapp.com/","assets/images/Screenshot_Proj.jpg","WishList");
+const Proj16=new Project("https://github.com/krab7191/Run-Amok-Free","https://groceries.morrisons.com/productImages/217/217703011_0_640x640.jpg?identifier=e7cf36512b30ca18065e5a740e6b2e81","Run-Amok");
 
 const projectsArray = [];
 projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11,Proj12,Proj13,Proj14,Proj15,Proj16);
