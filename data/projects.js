@@ -22,7 +22,7 @@ const Proj12=new Project("http://mongoscraps.herokuapp.com/","assets/images/hann
 const Proj13=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory");
 const Proj14=new Project("https://search-react-app.herokuapp.com/","assets/images/hannah_gibbs_1067876.jpg","NPR-Music-React");
 const Proj15=new Project("https://wishlist-p3t6-app.herokuapp.com/","assets/images/Screenshot_Proj.jpg","WishList");
-const Proj16=new Project("https://github.com/krab7191/Run-Amok-Free","https://groceries.morrisons.com/productImages/217/217703011_0_640x640.jpg?identifier=e7cf36512b30ca18065e5a740e6b2e81","Run-Amok");
+const Proj16=new Project("https://run-amok-free.herokuapp.com/","https://groceries.morrisons.com/productImages/217/217703011_0_640x640.jpg?identifier=e7cf36512b30ca18065e5a740e6b2e81","Run-Amok");
 
 const projectsArray = [];
 projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11,Proj12,Proj13,Proj14,Proj15,Proj16);
