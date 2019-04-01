@@ -26,7 +26,7 @@ const Proj16=new Project("https://run-amok-free.herokuapp.com/","https://groceri
 const Proj17=new Project("https://ocskier.github.io/BLS-Website/","assets/images/christine-mendoza-527612-unsplash.jpg","Brightleaf");
 
 const projectsArray = [];
-projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11,Proj12,Proj13,Proj14,Proj15,Proj16,Proj17);
+projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj10,Proj11,Proj13,Proj14,Proj15,Proj16,Proj17);
 
 const hdbrsObj = {
     projects: projectsArray
