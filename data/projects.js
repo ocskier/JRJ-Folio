@@ -8,7 +8,7 @@ class Project {
 
 const Proj1=new Project("http://pouracle-basic.herokuapp.com/","https://groceries.morrisons.com/productImages/217/217703011_0_640x640.jpg?identifier=e7cf36512b30ca18065e5a740e6b2e81","Pouracle");
 const Proj2=new Project("https://ocskier.github.io/Train-Scheduler/","assets/images/railway-station-619082_1280.jpg","Train Scheduler");
-const Proj3=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory");
+// const Proj3=new Project("https://ocskier.github.io/BLS-Website/","assets/images/christine-mendoza-527612-unsplash.jpg","Brightleaf");
 const Proj4=new Project("https://ocskier.github.io/Trivia-Game/","assets/images/question-mark-1872665_1280.jpg","Trivia Game");
 const Proj5=new Project("https://ocskier.github.io/unit-4-game/","assets/images/main-thumb-t-1785517-200-boztfctkwxbzmfjwurneimbimaluhaxk.jpeg","Star Wars Battle");
 const Proj6=new Project("https://jenguin777.github.io/project1/index.html","assets/images/tithe-favicon.1.png","Tithe App");
@@ -23,10 +23,10 @@ const Proj14=new Project("https://search-react-app.herokuapp.com/","assets/image
 const Proj15=new Project("https://wishlist-p3t6-app.herokuapp.com/","assets/images/Screenshot_Proj.jpg","WishList");
 const Proj16=new Project("https://ocskier.github.io/Word-Guess-Game/","assets/images/Screenshot5.png","Word Game");
 const Proj17=new Project("https://repl.it/@ocskier/Bamazon","assets/images/fancycrave.jpg","Bamazon");
-const Proj18=new Project("https://ocskier.github.io/BLS-Website/","assets/images/christine-mendoza-527612-unsplash.jpg","Brightleaf");
+const Proj18=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory");
 
 const projectsArray = [];
-projectsArray.push(Proj1,Proj2,Proj3,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj11,Proj12,Proj14,Proj15,Proj16,Proj17,Proj18);
+projectsArray.push(Proj1,Proj2,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj11,Proj12,Proj14,Proj15,Proj16,Proj17,Proj18);
 
 const hdbrsObj = {
     projects: projectsArray
