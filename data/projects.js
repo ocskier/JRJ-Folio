@@ -23,7 +23,7 @@ const Proj14=new Project("https://search-react-app.herokuapp.com/","assets/image
 const Proj15=new Project("https://wishlist-p3t6-app.herokuapp.com/","assets/images/Screenshot_Proj.jpg","WishList");
 const Proj16=new Project("https://ocskier.github.io/Word-Guess-Game/","assets/images/Screenshot5.png","Word Game");
 const Proj17=new Project("https://repl.it/@ocskier/Bamazon","assets/images/fancycrave.jpg","Bamazon");
-const Proj18=new Project("https://ocskier.github.io/Clicky-Game/","assets/images/BN-XN.jpg","Memory");
+const Proj18=new Project("https://ocskier.github.io/Memory/","assets/images/BN-XN.jpg","Memory");
 
 const projectsArray = [];
 projectsArray.push(Proj1,Proj2,Proj4,Proj5,Proj6,Proj7,Proj8,Proj9,Proj11,Proj12,Proj14,Proj15,Proj16,Proj17,Proj18);
