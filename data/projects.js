@@ -6,7 +6,7 @@ class Project {
     }
 }
 
-const Proj1=new Project("http://pouracle-basic.herokuapp.com/","https://groceries.morrisons.com/productImages/217/217703011_0_640x640.jpg?identifier=e7cf36512b30ca18065e5a740e6b2e81","Pouracle");
+const Proj1=new Project("http://pouracle-basic.herokuapp.com/","assets/images/gonzalo-remy-JCIJnIXv7SE-unsplash.jpg","Pouracle");
 const Proj2=new Project("https://ocskier.github.io/Train-Scheduler/","assets/images/railway-station-619082_1280.jpg","Train Scheduler");
 // const Proj3=new Project("https://ocskier.github.io/BLS-Website/","assets/images/christine-mendoza-527612-unsplash.jpg","Brightleaf");
 const Proj4=new Project("https://ocskier.github.io/Trivia-Game/","assets/images/question-mark-1872665_1280.jpg","Trivia Game");
