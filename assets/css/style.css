@@ -24,9 +24,11 @@ p {
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
+
 h3 {
   margin: 0px 0 10px 0;
 }
+
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -41,6 +43,7 @@ h3 {
   border: 4px solid #777;
   border-radius: 8px;
 }
+
 form {
   padding-bottom: 20px;
 }
@@ -52,11 +55,12 @@ form {
   border-radius: 8px;
   background: transparent;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 65px;
-  text-align: center; 
+  text-align: center;
   text-decoration: none;
 }
 
@@ -78,58 +82,71 @@ form {
   background: rgb(15, 120, 201);
   color: white;
 }
+
 .parallax-container {
   min-height: 180px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 .mycard {
-    width: 90%;
-    margin: 10px auto;
-    border: 5px solid #666666;
-    border-radius: 30px;
+  width: 90%;
+  margin: 10px auto;
+  border: 5px solid #666666;
+  border-radius: 30px;
 }
 
 .mycardbody {
-    padding: 18px;
+  padding: 18px;
 }
 
 .ctr-txt {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
-.tab { 
-  display:inline-block; 
-  margin-left: 40px; 
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
 }
+
 .mycard-a {
-    z-index: 999;
-    display: block;
-    position: absolute;
-    top: 0; left: 0;
-    height: 100%; width: 100%;
-    }
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item:hover {
+  text-decoration: 'none';
+  transform: 'scale(1.05)';
+}
 
 
-  @media only screen and (max-width : 1264px) {
-      .mycard {
-        height: 182px;
-      }
-    }
+@media only screen and (max-width : 1264px) {
+  .mycard {
+    height: 182px;
+  }
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
+
   .mycard {
     height: 212px;
   }
@@ -141,15 +158,18 @@ form {
     height: 200px;
   }
 }
+
 @media only screen and (max-width : 768px) {
   .mycard {
     height: 186px;
   }
 }
+
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+
   .mycard {
     height: 100%;
   }
@@ -158,6 +178,7 @@ form {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
