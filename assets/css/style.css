@@ -7,13 +7,18 @@
  */
 
 body {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
   background: rgb(46, 42, 48);
 }
 
 nav ul a,
 nav .brand-logo {
   color: #444;
+}
+
+a:hover {
+  transform: scale(1.4);
+  transition: 0.15s ease-in-out;
 }
 
 #nav-mobile {
@@ -69,12 +74,12 @@ form {
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
@@ -87,7 +92,7 @@ form {
   min-height: 180px;
   line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .parallax-container .section {
@@ -126,18 +131,30 @@ form {
 }
 
 .carousel-item:hover {
-  text-decoration: 'none';
+  text-decoration: "none";
   transform: scale(1.05);
 }
 
+.proj-card {
+  top: -45px !important;
+}
 
-@media only screen and (max-width : 1264px) {
+.link-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.proj-link {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1264px) {
   .mycard {
     height: 182px;
   }
 }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -152,20 +169,19 @@ form {
   }
 }
 
-
-@media only screen and (max-width : 876px) {
+@media only screen and (max-width: 876px) {
   .mycard {
     height: 200px;
   }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   .mycard {
     height: 186px;
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }

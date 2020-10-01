@@ -1,16 +1,21 @@
 <nav role="navigation" style="background:linear-gradient(45deg, black, transparent);box-shadow:none;color:white;">
   <div class="nav-wrapper container">
-    <a id="logo-container" href="https://github.com/ocskier" class="brand-logo"><img src="assets/images/GitHub-Mark-Light-120px-plus.png"
-        width="30px" height="30px"></a>
+    <a id="logo-container" href="https://github.com/ocskier" class="brand-logo"><img
+        src="assets/images/GitHub-Mark-Light-120px-plus.png" width="30px" height="30px"></a>
     <div class="right hide-on-med-and-down" style="display:inline-flex">
-      <a data-target="modal1" class="modal-trigger white-text right" href="#modal1" style="margin-right:12px"><i class="small material-icons">email</i></a>
-      <a class="white-text right" href="tel:9195393378" style="margin-left:12px"><i class="small material-icons">phone</i></a>
+      <a data-target="modal1" class="modal-trigger white-text right" href="#modal1" style="margin-right:12px"><i
+          class="small material-icons">email</i></a>
+      <a class="white-text right" href="tel:9195393378" style="margin-left:12px"><i
+          class="small material-icons">phone</i></a>
     </div>
     <ul id="nav-mobile" class="sidenav">
-      <li><a data-target="modal1" class="modal-trigger waves-effect waves-light" href="#modal1"><i class="small material-icons">email</i>Email</a></li>
-      <li><a href="tel:9195393378" class="waves-effect waves-light"><i class="small material-icons">phone</i>Phone</a></li>
+      <li><a data-target="modal1" class="modal-trigger waves-effect waves-light" href="#modal1"><i
+            class="small material-icons">email</i>Email</a></li>
+      <li><a href="tel:9195393378" class="waves-effect waves-light"><i class="small material-icons">phone</i>Phone</a>
+      </li>
     </ul>
-    <a href="#" data-target="nav-mobile" class="sidenav-trigger" style="margin: 0"><i class="material-icons" style="color:white">menu</i></a>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger" style="margin: 0"><i class="material-icons"
+        style="color:white">menu</i></a>
   </div>
 </nav>
 
@@ -36,21 +41,32 @@
 
     </div>
   </div>
-  <div class="parallax"><img src="assets/images/ash-edmonds-542453-unsplash-min.jpg" alt="Unsplashed background img 1"></div>
+  <div class="parallax"><img src="assets/images/ash-edmonds-542453-unsplash-min.jpg" alt="Unsplashed background img 1">
+  </div>
 </div>
-
 
 <div class="container animated zoomIn">
   <div class="section" style="padding-top: 2rem;">
 
     <!--   Icon Section   -->
-    <h6 style="font-size: 28px; text-align: center;font-weight: bold;margin-bottom: 10px;color: white;">Projects</h6>
+    <h6 style="font-size: 28px; text-align: center;font-weight: bold;margin-bottom: .912rem;color: white;">Projects</h6>
+    <hr style="margin: 0 43%">
     <div id="proj-row" class="row carousel">
       {{#each projects}}
-        <a class="carousel-item" href={{Url}} target="blank" style="width:355px;overflow:initial">
-          <img src={{Pic}} alt="Portfolio Pic" style="border-radius: 25px;max-height: 255px;">
-          <p class="ctr-txt white-text">{{Name}}</p>
-        </a>
+      <div class="carousel-item proj-card" style="width:355px;overflow:initial">
+        <p class="ctr-txt white-text">{{Name}}</p>
+        <img src={{Pic}} alt="Portfolio Pic" style="border-radius: 25px;max-height: 255px;width: 100%">
+        <ul class="link-list">
+          <a href={{GHLink}} target="blank">
+            <li class="ctr-txt white-text proj-link">Repo</li>
+          </a>
+          {{#if Url}}
+          <a href={{Url}} target="blank">
+            <li class="ctr-txt white-text proj-link">Live Link</li>
+          </a>
+          {{/if}}
+        </ul>
+      </div>
       {{/each}}
     </div>
   </div>
@@ -66,7 +82,8 @@
 
     </div>
   </div>
-  <div class="parallax"><img src="assets/images/ash-edmonds-542453-unsplash-min.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="assets/images/ash-edmonds-542453-unsplash-min.jpg" alt="Unsplashed background img 2">
+  </div>
 </div>
 
 <div class="container">
@@ -77,7 +94,8 @@
         <h3><i class="mdi-content-send brown-text">
             {{!-- <a id="logo-container" href="#" class="brand-logo center"><img src="assets/images/V9H2222Jon.jpg" width="100px" height="100px"></a> --}}
           </i></h3>
-        <h4 style="text-decoration-line: underline">About Me</h4>
+        <h4>About Me</h4>
+        <hr style="margin: 0 40%">
         <p class="left-align light" style="font-size: 1.5rem;line-height: 2rem;"><span class="tab"></span> Hello! I was
           born in Louisiana and grew up in Richmond,
           Va until graduating from high school. I attended college at <a href="https://www.ncsu.edu" target="blank"
@@ -96,7 +114,8 @@
         <p class="left-align light" style="font-size: 1.5rem;line-height: 2rem;"><span class="tab"></span> I am looking
           to gain full-time employment in software
           development at this juncture using skills learned up to and including the
-          <a href="https://codingbootcamp.unc.edu/" target="blank" style="color: moccasin;font-style: italic;font-weight: bolder;">UNC
+          <a href="https://codingbootcamp.unc.edu/" target="blank"
+            style="color: moccasin;font-style: italic;font-weight: bolder;">UNC
             Chapel
             Hill Coding Bootcamp</a>.
         </p>
@@ -122,8 +141,8 @@
       <div class="col l3 s12">
         <h5 class="white-text">GitHub</h5>
         <ul>
-          <li><a class="white-text" href="https://github.com/ocskier"><img src="assets/images/GitHub-Mark-Light-120px-plus.png"
-                width="30px" height="30px"></a></li>
+          <li><a class="white-text" href="https://github.com/ocskier"><img
+                src="assets/images/GitHub-Mark-Light-120px-plus.png" width="30px" height="30px"></a></li>
         </ul>
       </div>
       <div class="col l3 s12">
@@ -142,14 +161,16 @@
               <br>
               <div class="form-group">
                 <label for="contact-email">Email address</label>
-                <input type="email" class="form-control" id="contact-email" name="_replyto" placeholder="example@gmail.com">
+                <input type="email" class="form-control" id="contact-email" name="_replyto"
+                  placeholder="example@gmail.com">
               </div>
               <br>
               <div class="form-group">
                 <label for="contact-text">Message</label>
                 <textarea class="form-control" id="contact-text" name="textarea" rows="4"></textarea>
               </div>
-              <input type="submit" class="btn btn-primary modal-close" value="Send" data-toggle="button" aria-pressed="false" autocomplete="off">Submit</input>
+              <input type="submit" class="btn btn-primary modal-close" value="Send" data-toggle="button"
+                aria-pressed="false" autocomplete="off">Submit</input>
               <span id="message"></span>
             </form>
           </div>
